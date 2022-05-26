@@ -110,10 +110,6 @@ tab3.newButton("MetaB (PC, Mobile)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/NocturneMoDz/BROOKHAVEN-GUI-/main/METAB", true))();
 end)
 
-tab3.newButton("Nameless Hub (PC, Mobile)", function()
-    loadstring(game:HttpGet("https://gist.githubusercontent.com/testttbqwebg/adc0db730f5dfca0d8dbdb81f3b65391/raw/b0443888c4399af5a297cb1100a4749c65705711/qweqw", true))();
-end)
-
 -----------------------------------------------
 
 tab4.newButton("ShiftLock (For Mobile Users)", function()
@@ -146,6 +142,14 @@ end)
 
 tab4.newButton("Keyboard", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/Keyboard-FE/main/Protected%20(3).lua'),true))();
+end)
+
+tab4.newButton("Infinite Jump", function()
+    local InfiniteJumpEnabled = true
+game:GetService("UserInputService").JumpRequest:connect(function()
+	if InfiniteJumpEnabled then
+		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+	end
 end)
 
 -----------------------------------------------
