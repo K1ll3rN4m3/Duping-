@@ -10,7 +10,7 @@ Player.Chatted:connect(function(cht)
         print("[-] TikTok: @tph_auraph")
         
         print("------------------ Updates ------------------")
-        print("Nothing")
+        print("[+] Added: Keyboard GUI")
         
         print("------------------ More Soon -----------------")
     end
