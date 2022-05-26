@@ -144,6 +144,10 @@ tab4.newButton("ESP", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/K1ll3rN4m3/Scripts/main/Esp"))();
 end)
 
+tab4.newButton("Keyboard", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/Keyboard-FE/main/Protected%20(3).lua'),true))();
+end)
+
 -----------------------------------------------
 
 mainGUI.openTab(tab1);
