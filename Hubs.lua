@@ -145,13 +145,8 @@ tab4.newButton("Keyboard", function()
 end)
 
 tab4.newButton("Infinite Jump", function()
-    local InfiniteJumpEnabled = true
-game:GetService("UserInputService").JumpRequest:connect(function()
-	if InfiniteJumpEnabled then
-		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
-	end
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/K1ll3rN4m3/Scripts/main/Infinite%20Jump"))();
 end)
-
 -----------------------------------------------
 
 mainGUI.openTab(tab1);
