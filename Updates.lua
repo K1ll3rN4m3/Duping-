@@ -12,7 +12,8 @@ Player.Chatted:connect(function(cht)
         print("[-] TikTok: @tph_auraph")
         
         print("------------------ Updates ------------------")
-        print("[+] Added: Keyboard GUI")
+        print("[+] Added: Infinite Jump")
+        print("[+] Removed: Nameless Hub")
         
         print("------------------ More Soon -----------------")
     end
