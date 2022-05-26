@@ -63,7 +63,7 @@ tab2.newButton("Hoho Hub (PC, Mobile)", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))();
 end)
 
-tab2.newButton("Black Trap (PC, Mobile [Key: TEST_KEY])", function()
+tab2.newButton("Black Trap (PC, Mobile) [Key: TEST_KEY]", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/jmRUdL17"))();
 end)
 
