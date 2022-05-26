@@ -4,7 +4,9 @@ local mainGUI = ezlib.create("Korusaki Hub");
 local tab1 = mainGUI.newTab("Pet Simulator X");
 local tab2 = mainGUI.newTab("Blox Fruit");
 local tab3 = mainGUI.newTab("Brookhaven");
-local tab4 = mainGUI.newTab("Settings");
+local tab4 = mainGUI.newTab("Clicker Simulator")
+local tab5 = mainGUI.newTab("Weapon Fighting Simulator")
+local tab6 = mainGUI.newTab("Settings");
 
 -----------------------------------------------
 
@@ -59,6 +61,9 @@ end)
 
 -----------------------------------------------
 
+tab2.newTitle("Blox Fruit Section");
+tab2.newDiv()
+
 tab2.newButton("Hoho Hub (PC, Mobile)", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))();
 end)
@@ -102,6 +107,9 @@ end)
 
 -----------------------------------------------
 
+tab3.newTitle("Brookhaven Section");
+tab3.newDiv()
+
 tab3.newButton("IceHub (PC, Mobile)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))();
 end)
@@ -112,41 +120,75 @@ end)
 
 -----------------------------------------------
 
-tab4.newButton("ShiftLock (For Mobile Users)", function()
+tab4.newTitle("Clicker Simulator Section");
+tab4.newDiv()
+
+tab4.newButton("Extreme Hub | (PC, Mobile) [Key: http://extremehub.xyz/getkey]", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ExtremeAntonis/KeySystemUI/main/KeySystemUI-Obfuscated.lua"))();
+end)
+
+tab4.newButton("script.gg (PC, Mobile)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Kederal/script.gg/main/loader.lua"))();
+end)
+
+tab4.newButton("VoidMasterX (PC, Mobile)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidMasterX/scripts/main/Clicker%20Simulator.lua"))();
+end)
+
+-----------------------------------------------
+
+tab5.newTitle("Weapon Fighting Section");
+tab5.newDiv()
+
+tab5.newButton("Uzu Hub (PC, Mobile)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Kederal/script.gg/main/loader.lua"))();
+end)
+
+tab5.newButton("NoName (PC, Mobile)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FreeRobloxScripts/anime-fighting/main/simulator"))();
+end)
+
+-----------------------------------------------
+
+tab6.newTitle("Settings")
+tab6.newDiv()
+
+tab6.newButton("ShiftLock (For Mobile Users)", function()
     loadstring(game:HttpGet('https://pastebin.com/raw/WQ9NPeDS'))();
 end)
 
-tab4.newButton("Anti Fling", function()
+tab6.newButton("Anti Fling", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/RERTLsNp"))();
 end)
 
-tab4.newButton("Auto Translate", function()
+tab6.newButton("Auto Translate", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/YourLocalNzi/Language-translator-/main/Language%20translator", true))();
 end)
 
-tab4.newButton("Free Animations", function()
+tab6.newButton("Free Animations", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/K1ll3rN4m3/Scripts/main/Animation"))();
 end)
 
-tab4.newButton("Walk On Wall", function()
+tab6.newButton("Walk On Wall", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))();
 end)
 
-tab4.newButton("Fly", function()
+tab6.newButton("Fly", function()
     loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")();
 end)
 
-tab4.newButton("ESP", function()
+tab6.newButton("ESP", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/K1ll3rN4m3/Scripts/main/Esp"))();
 end)
 
-tab4.newButton("Keyboard", function()
+tab6.newButton("Keyboard", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/Keyboard-FE/main/Protected%20(3).lua'),true))();
 end)
 
-tab4.newButton("Infinite Jump", function()
+tab6.newButton("Infinite Jump", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/K1ll3rN4m3/Scripts/main/Infinite%20Jump"))();
 end)
+
 -----------------------------------------------
 
 mainGUI.openTab(tab1);
