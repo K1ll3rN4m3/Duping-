@@ -13,7 +13,6 @@ Player.Chatted:connect(function(cht)
         
         print("------------------ Updates ------------------")
         print("[+] Added: Infinite Jump")
-        print("[+] Removed: Nameless Hub")
         
         print("------------------ More Soon -----------------")
     end
