@@ -157,7 +157,7 @@ tab5.newButton("Uzu Hub (PC, Mobile)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Kederal/script.gg/main/loader.lua"))();
 end)
 
-tab5.newButton("NoName (PC, Mobile)", function()
+tab5.newButton("[This Hub Has No Name] (PC, Mobile)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/FreeRobloxScripts/anime-fighting/main/simulator"))();
 end)
 
