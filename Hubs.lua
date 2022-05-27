@@ -64,6 +64,10 @@ tab1.newButton("ShinyTool (PC, Mobile)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/XLinestX/ShinyTool_Key/main/Loader.lua"))();
 end)
 
+tab1.newButton("Delta PSX (PC, Mobile)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/lxnnydev/Delta-PSX/main/loader.lua"))();
+end)
+
 -----------------------------------------------
 
 tab2.newTitle("Blox Fruit Section");
