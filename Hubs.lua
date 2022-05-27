@@ -60,6 +60,10 @@ tab1.newButton("Hoho Hub (PC, Mobile)", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))();
 end)
 
+tab1.newButton("ShinyTool (PC, Mobile)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/XLinestX/ShinyTool_Key/main/Loader.lua"))();
+end)
+
 -----------------------------------------------
 
 tab2.newTitle("Blox Fruit Section");
