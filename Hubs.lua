@@ -140,6 +140,10 @@ tab4.newButton("VoidMasterX (PC, Mobile)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidMasterX/scripts/main/Clicker%20Simulator.lua"))();
 end)
 
+tab4.newButton("ShinyTool (PC, Mobile)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/XLinestX/ShinyTool_Key/main/Loader.lua"))();
+end)
+
 -----------------------------------------------
 
 tab5.newTitle("Weapon Fighting Section");
