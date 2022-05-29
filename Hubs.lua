@@ -247,6 +247,10 @@ tab9.newButton("Infinite Jump", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/K1ll3rN4m3/Scripts/main/Infinite%20Jump"))();
 end)
 
+tap9.newButton("OPFinality (PC, Mobile)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/K1ll3rN4m3/Scripts/main/OPFinality"))();
+end)
+
 -----------------------------------------------
 
 mainGUI.openTab(tab1);
