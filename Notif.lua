@@ -1,6 +1,6 @@
 local function callback(Text)
     if Text == "YES" then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/K1ll3rN4m3/Duping-/main/Updates.lua", true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/K1ll3rN4m3/Duping-/main/Updates2.lua", true))()
     elseif Text == "NO" then
         print("You Gae XD")
     end
