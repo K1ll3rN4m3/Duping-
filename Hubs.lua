@@ -182,16 +182,16 @@ end)
 tab7.newTitle("Legends Of Speed Section");
 tab7.newDiv()
 
-tab7.newButton("Proxima Hub (PC, Mobile)", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Legends-Of-Speed.lua'))();
-end)
-
 tab7.newButton("[This Hub Has No Name] (PC, Mobile)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/K1ll3rN4m3/Scripts/main/LOS"))();
 end)
 
-tab7.newButton("V.G Hub (PC, Mobile)", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))();
+tab7.newButton("LOS Auto Farm (PC, Mobile)", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/cwCdNqds"))();
+end)
+
+tab7.newButton("[This Hub Has No Name] (PC, Mobile)", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/u3Dh1K1J"))();
 end)
 
 -----------------------------------------------
@@ -203,24 +203,12 @@ tab8.newButton("Antartic Hub (PC, Mobile)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/JusticeValley/Antarctic-Hub/main/New.lua", true))();
 end)
 
-tab8.newButton("V.G Hub (PC, Mobile)", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))();
-end)
-
 -----------------------------------------------
 tab9.newTitle("Zombie Attack Section");
 tab9.newDiv()
 
-tab9.newButton("Ghost Hub (PC, Mobile)", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/crazyfuy/ghost-hub/main/Loader.lua'))();
-end)
-
 tab9.newButton("[This Hub Has No Name] (PC, Mobile)", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/jrmc8Q7S"))();
-end)
-
-tab9.newButton("V.G Hub (PC, Mobile)", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))();
 end)
 
 -----------------------------------------------
