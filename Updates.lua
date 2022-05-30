@@ -12,7 +12,7 @@ Player.Chatted:connect(function(cht)
         print("[-] TikTok: @tph_auraph")
         
         print("------------------ Updates ------------------")
-        print("[+] Added: Adopt Me")
+        print("[+] Added: Zombie Attack")
         
         print("------------------ More Soon -----------------")
     end
