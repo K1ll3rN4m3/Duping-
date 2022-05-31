@@ -12,7 +12,7 @@ NotificationBindable.OnInvoke = callback
 game.StarterGui:SetCore("SendNotification", {
     Title = "Launch The Hub?";
     Text = "Latest Added: Zombie Attack";
-    Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150";
+    Icon = "rbxthumb://type=Asset&id=9776135486&w=150&h=150";
     Duration = 20;
     Button1 = "YES";
     Button2 = "NO";
