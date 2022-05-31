@@ -258,6 +258,10 @@ tab10.newButton("OPFinality", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/K1ll3rN4m3/Scripts/main/OPFinality"))();
 end)
 
+tab10.newButton("Fix Bug Cam", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/K1ll3rN4m3/Scripts/main/FixCam"))();
+end)
+
 -----------------------------------------------
 
 mainGUI.openTab(tab1);
